@@ -1,0 +1,17 @@
+[Unit]
+Description=Food Waste Detector Service
+After=network.target
+
+[Service]
+Type=simple
+User=@USER@
+WorkingDirectory=@PROJECT_DIR@
+ExecStart=/bin/bash "@PROJECT_DIR@/scripts/start_detector.sh"
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+
+[Install]
+WantedBy=multi-user.target

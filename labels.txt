@@ -1,0 +1,7 @@
+0 chicken_curry
+1 corn_palak
+2 dal_tadka
+3 gobhi_mattar
+4 kheer
+5 paneer_makhni
+6 rice
