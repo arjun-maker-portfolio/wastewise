@@ -1,6 +1,6 @@
 # WasteWise
 
-A Raspberry Pi camera system that logs food waste by type and estimated volume. This repo contains the detector and the seven-class model deployed in the Udman hotel, Panchshila Park.
+A Raspberry Pi camera system that automatically logs food waste by type and estimated volume, viewable in a dashboard showing daily and weekly metrics. This repo contains the detector and the seven-class model deployed in the Udman hotel, Panchshila Park.
 Testimonials from deployment partners can be found in the `/testimonials` folder.
 
 ![Segmentation stages](examples/masking/stages.png)
