@@ -2,6 +2,7 @@
 
 A Raspberry Pi camera system that automatically logs food waste by type and estimated volume, viewable in a dashboard showing daily and weekly metrics. This repo contains the detector and the seven-class model deployed in the Udman hotel, Panchshila Park.
 Testimonials from deployment partners can be found in the `/testimonials` folder.
+The dashboard can be viewed at https://github.com/arjun-maker-portfolio/dashboard.
 
 ![Segmentation stages](examples/masking/stages.png)
 
