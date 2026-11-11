@@ -6,7 +6,7 @@ You can see the sample version of the dashboard **[here](https://github.com/arju
 
 ![Segmentation stages](examples/masking/stages.png)
 
-**ML isn't used for segmentation because it would require labelled training data and add processing overhead, while classical computer vision is sufficient for the fixed camera and steel-plate setup**. 
+**ML isn't used for segmentation because it would require labelled training data and add processing overhead, while classical computer vision is sufficient for this setup**. 
 
 ## Run
 
