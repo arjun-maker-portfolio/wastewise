@@ -1,10 +1,12 @@
 # WasteWise
 
 A Raspberry Pi camera system that automatically logs food waste by type and estimated volume, viewable in a dashboard showing daily and weekly metrics. This repo contains the detector and the seven-class model deployed in the Udman hotel, Panchshila Park.
-Testimonials from deployment partners can be found in the `/testimonials` folder.
+Testimonials from deployment partners can be found in the `/testimonials` folder. This system has led to a ~20% waste reduction in Pangea Society's kitchen.
 You can see the sample version of the dashboard **[here](https://github.com/arjun-maker-portfolio/dashboard)**.
 
 ![Segmentation stages](examples/masking/stages.png)
+
+ML isn't used for segmentation because it would require labelled training data and add processing overhead, while classical computer vision is sufficient for the fixed camera and steel-plate setup. 
 
 ## Run
 
